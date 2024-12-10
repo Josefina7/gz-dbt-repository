@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: data
+    schema: gz_raw_data
+    tables:
+      - name: product
+        identifier: raw_gz_product
+        description: Dataset con todos los productos
+      - name: sales
+        identifier: raw_gz_sales
+        description: Dataset con la información de las ventas
+      - name: ship
+        identifier: raw_gz_ship
+        description: Dataset con la información de logística
