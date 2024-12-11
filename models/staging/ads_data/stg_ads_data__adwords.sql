@@ -2,7 +2,7 @@ with
 
 source as (
 
-    select * from {{ source('ads_data', 'adwords') }}
+    select * from {{ source('data', 'adwords') }}
 
 ),
 
