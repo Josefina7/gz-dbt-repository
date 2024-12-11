@@ -14,9 +14,6 @@ sources:
         identifier: raw_gz_ship
         description: Dataset con la información de logística
 
-  - name: ads_data
-    schema: gz_raw_data
-    tables:
       - name: adwords
         identifier: raw_gz_adwords
         description: Adwords campaign data
