@@ -1,5 +1,5 @@
 SELECT
-    margin.products_id,
+    --margin.products_id,
     margin.orders_id,
     margin.date_date,
     margin.revenue,
