@@ -14,25 +14,7 @@ sources:
         identifier: raw_gz_ship
         description: Dataset con la información de logística
 
-models:
-  - name: product
-    description: Modelo de producto
-    columns:
-      - name: products_id
-        description: Primary key
-        tests:
-          - unique
-          - not_null
-      - name: purchase_price
-        description: Costo de compra
-        tests:
-          - not_null
-      - name: sales
-        description: Modelo de ventas
-        columns:
-          - name: products_id
-            tests:
-              - unique
+
               
 
 
