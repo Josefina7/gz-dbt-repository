@@ -14,6 +14,21 @@ sources:
         identifier: raw_gz_ship
         description: Dataset con la información de logística
 
+  - name: ads_data
+    schema: gz_raw_data
+    tables:
+      - name: adwords
+        identifier: raw_gz_adwords
+        description: Adwords campaign data
+      - name: bing
+        identifier: raw_gz_bing
+        description: Bing campaign data
+      - name: criteo
+        identifier: raw_gz_criteo
+        description: Criteo campaign data
+      - name: facebook
+        identifier: raw_gz_facebook
+        description: Facebook campaign data
 
               
 
